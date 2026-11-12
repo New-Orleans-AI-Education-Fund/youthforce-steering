@@ -16,13 +16,21 @@ Live at https://YouthForce-Steering.vercel.app (web addresses ignore capitals).
 
 The words are in `index.html`, not Notion. Two ways to change them:
 
-1. **On GitHub.** Open `index.html` in this repository, click the pencil (Edit this file), press Ctrl+F (Cmd+F on
-   a Mac) to find the words, change them, then click **Commit changes** and **Commit changes** again in the box
-   that opens. The site updates in about a minute; reload it to check. Change only the words between the tags,
-   and leave anything inside `<` and `>` alone.
+1. **On GitHub.** Open `index.html` in this repository and click the pencil (Edit this file). Click anywhere in
+   the text, then press Ctrl+F (Cmd+F on a Mac): a Find box and a Replace box open above the text. Type the old
+   words in Find, the new words in Replace, and click **Replace**. Then click the green **Commit changes...**
+   button at the top right and **Commit changes** in the box that opens. The site updates within a minute;
+   reload it to check. Change only words, and leave anything between `<` and `>` alone.
 2. **With Claude.** Ask Claude Code to edit `index.html` in this repository and describe the change.
 
 Every saved change is kept in the repository's history, so any change can be undone.
+
+Who can edit: members of the Fund's GitHub organization with Write access to this repository (Davis, and
+Kathleen as haaf328 since Nov 12 2026). The repository is public on purpose: Vercel publishes edits to a private
+organization repository only from members of the Fund's Vercel team, which costs a paid seat each, while
+collaboration on a public repository is free. The page source was already public, so nothing new is exposed.
+The first copy, which had a personal email address in its history, is the private repository
+`youthforce-steering-old` and can be deleted.
 
 ## Notes
 
